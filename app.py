@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2 
 import pytesseract
-from PIL import Image
+from PIL import Image 
 
 pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract' #for heroku setup
 st.set_option('deprecation.showfileUploaderEncoding',False)           #avoid warnings
